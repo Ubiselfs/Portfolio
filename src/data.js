@@ -1,13 +1,10 @@
 import {
   BriefcaseBusiness,
   Code2,
-  Dribbble,
   Figma,
   Github,
-  Globe2,
   GraduationCap,
   Instagram,
-  Layers3,
   LayoutTemplate,
   Linkedin,
   Mail,
@@ -36,9 +33,9 @@ export const data = {
     phone: '79 180 346',
     socials: [
       // Replace href values with your real social links.
-      { label: 'LinkedIn', href: '#', icon: Linkedin },
-      { label: 'GitHub', href: '#', icon: Github },
-      { label: 'Instagram', href: '#', icon: Instagram },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/peter-helou/', icon: Linkedin },
+      { label: 'GitHub', href: 'https://github.com/Ubiselfs', icon: Github },
+      { label: 'Instagram', href: 'https://www.instagram.com/peterhelou58/', icon: Instagram },
     ],
   },
 
@@ -130,19 +127,16 @@ export const data = {
       tag: 'Flutter',
       icon: ShoppingCart,
     },
-    { title: 'UI/UX App Designs', description: 'Interface design case studies will be added soon.', tag: 'Figma', icon: Layers3 },
-    { title: 'Website Projects', description: 'Responsive website projects will be added soon.', tag: 'Web', icon: Globe2 },
-    { title: 'WordPress E-commerce Work', description: 'Store management examples will be added soon.', tag: 'WordPress', icon: Store },
-    { title: 'Graphic Design Projects', description: 'Print and digital design work will be added soon.', tag: 'Design', icon: Palette },
+    {
+      title: 'Grocerly UI/UX in Figma',
+      description: 'Figma interface design for the Grocerly e-commerce mobile app. Details will be added later.',
+      tag: 'Figma',
+      icon: Figma,
+    },
   ],
 
-  // Replace placeholders with real articles later.
-  blogPosts: [
-    { title: 'My journey learning Flutter', category: 'Learning', icon: MonitorSmartphone },
-    { title: 'UI/UX design as a developer', category: 'Design', icon: Dribbble },
-    { title: 'Building e-commerce apps', category: 'E-commerce', icon: ShoppingCart },
-    { title: 'Learning web development', category: 'Web', icon: Code2 },
-  ],
+  // Add blog posts here later when you are ready to publish.
+  blogPosts: [],
 
   contactItems: [
     { label: 'Email', value: 'peterhelou58@gmail.com', icon: Mail },
@@ -154,6 +148,5 @@ export const data = {
   resumeSkills: [
     { title: 'Development', icon: Code2, items: ['Flutter', 'JavaScript', 'Web Development', 'Mobile App Development'] },
     { title: 'Design', icon: Palette, items: ['UI/UX Design', 'Figma', 'Graphic Design'] },
-    { title: 'E-commerce', icon: Store, items: ['WordPress', 'Product Uploads', 'Order Processing', 'Data Entry'] },
   ],
 };

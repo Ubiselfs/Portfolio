@@ -30,9 +30,8 @@ export default function Sidebar({ profile }) {
   return (
     <aside className="rounded-[28px] border border-white/10 bg-ink-850 p-6 shadow-soft lg:sticky lg:top-12">
       <div className="flex flex-col items-center text-center">
-        <div className="relative mb-5 grid h-36 w-36 place-items-center rounded-[32px] bg-gradient-to-br from-zinc-700 to-zinc-900 text-5xl font-black text-gold-400 shadow-glow">
+        <div className="mb-5 grid h-36 w-36 place-items-center rounded-[32px] border border-gold-400/20 bg-[#2a2a30] text-5xl font-black text-gold-400 shadow-glow">
           PH
-          <span className="absolute bottom-5 right-4 h-4 w-4 rounded-full border-2 border-ink-850 bg-emerald-400" />
         </div>
 
         <h1 className="text-3xl font-semibold tracking-normal text-white">{profile.name}</h1>
@@ -57,6 +56,8 @@ export default function Sidebar({ profile }) {
             aria-label={label}
             className="grid h-10 w-10 place-items-center rounded-full text-slate-400 transition hover:-translate-y-1 hover:bg-white/[0.05] hover:text-gold-400"
             href={href}
+            rel="noreferrer"
+            target="_blank"
           >
             <Icon size={20} />
           </a>

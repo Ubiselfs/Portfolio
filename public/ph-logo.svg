@@ -1,0 +1,5 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="112" height="112" rx="34" fill="#2A2A30"/>
+  <rect x="8" y="8" width="112" height="112" rx="34" stroke="#4E4020" stroke-width="4"/>
+  <text x="64" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#FFD166">PH</text>
+</svg>

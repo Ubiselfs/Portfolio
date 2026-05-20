@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { data } from './data.js';
 import Sidebar from './components/Sidebar.jsx';
@@ -16,7 +17,8 @@ const pages = {
   Contact,
 };
 
-export default function App({ activePage, onPageChange }) {
+export default function App() {
+  const [activePage, onPageChange] = useState('About');
   const ActivePage = pages[activePage];
 
   return (
