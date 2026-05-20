@@ -27,7 +27,7 @@ export const data = {
     // Update profile and contact details here.
     name: 'Peter Helou',
     title: 'UI/UX Website & Mobile App Developer',
-    subtitle: 'Computer Science Student',
+    subtitle: 'Fresh Computer Science Graduate',
     location: 'Lebanon',
     email: 'peterhelou58@gmail.com',
     phone: '79 180 346',
